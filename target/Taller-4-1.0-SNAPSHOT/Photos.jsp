@@ -2,17 +2,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>Carga de Imagenes</title>
 </head>
 <body>
+<%
+    String name = request.getParameter("usuario");
+    out.println("Bienvenido a FourPaws Citizens " + name
+    + "\nA continuacion debes Ingresar la imagen de tu mascota");
+%>
+<br>
+<br>
+<%= java.util.Calendar.getInstance().getTime() %>
 <h1> Bienvenido a FourPawsCitizens</h1>
-<form action="Photos.jsp">
-    <label>Ingrese su Nombre de Usuario</label>
-    <br>
-    <br>
-    <input type="text" id="user" name="usuario" ><br>
-    <br>
-    <button id="Submit"> Ingresar</button>
+<form action="">
+
 </form>
 
 <br/>
