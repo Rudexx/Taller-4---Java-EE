@@ -1,14 +1,14 @@
 <component name="ArtifactManager">
-  <artifact type="war" name="Taller 4:war">
+  <artifact type="war" name="Taller 4 Nuevo:war">
     <output-path>$PROJECT_DIR$/target</output-path>
     <properties id="maven-jee-properties">
       <options>
-        <module>Taller 4</module>
+        <module>Taller 4 Nuevo</module>
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="Taller-4-1.0-SNAPSHOT.war">
-      <element id="artifact" artifact-name="Taller 4:war exploded" />
+    <root id="archive" name="Taller-4-Nuevo-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Taller 4 Nuevo:war exploded" />
     </root>
   </artifact>
 </component>
