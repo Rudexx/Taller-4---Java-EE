@@ -16,6 +16,6 @@
 </form>
 
 <br/>
-<a href="https://docs.google.com/document/d/1JdND5vwoKtc08y3Y5yjF0JNJx9revQnW7SI24FivMEo/edit">Link del taller</a>
+<a href="https://docs.google.com/document/d/1JdND5vwoKtc08y3Y5yjF0JNJx9revQnW7SI24FivMEo/edit">Link del taller l</a>
 </body>
 </html>
