@@ -1,5 +1,6 @@
 package co.edu.unbosque.Taller_4_Nuevo;
 
+import javax.ejb.Singleton;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
@@ -7,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.PrintWriter;
 
-@WebServlet(name = "prueba", value = "/prueba")
+@WebServlet(name = "prueba", value = "prueba")
 public class PruebaCookie extends HttpServlet {
 
     private String message;
